@@ -51,23 +51,10 @@ npm test
 npm start
 ```
 
-### Current Implementations
-
-**Chapter 2: Search Algorithms**
-- `binary-search.ts` - Binary search implementation (V1) with Math.ceil
-- `binary-search-v2.ts` - Refined binary search (V2) with Math.floor
-- `linear-search.ts` - Linear search with step counting
-
-All implementations include:
-- Time complexity analysis
-- Step counting for performance measurement
-- Comprehensive test coverage
-
 ### Test Files
-- Located in `test/chapter-2/`
+- Located in `test/chapter-X/` (organized by chapter)
 - Pattern: `*.spec.ts`
 - Framework: Vitest with `describe/it` structure
-- Coverage: Odd/even arrays, edge cases, not-found scenarios
 
 ## Gleam Implementation
 
@@ -97,24 +84,14 @@ gleam test
 gleam run
 ```
 
-### Current Implementations
-
-**Project Structure**
+### Project Structure
 - Main module: `src/dsa_playground.gleam`
 - Test module: `test/dsa_playground_test.gleam`
 - Test pattern: Functions ending with `_test`
 
-**Chapter 2: Search Algorithms** (In Progress)
-- Implementations to match Node.js version
-
 ## Chapter Organization
 
-### Chapter 2: Search Algorithms
-Both implementations include:
-- **Linear Search** - O(n) time complexity
-- **Binary Search** - O(log n) time complexity
-
-Future chapters will follow the same parallel structure.
+Implementations are organized by chapter, following the book structure. Each chapter will contain parallel implementations in both Node.js/TypeScript and Gleam.
 
 ## Development Workflow
 
@@ -142,17 +119,6 @@ This dual-language approach provides:
 - **Type Systems**: Compare gradual typing vs strong static typing
 - **Learning**: Understand algorithms from multiple perspectives
 - **Performance**: Compare runtime characteristics across platforms
-
-## Repository Status
-
-**Current Progress:**
-- ✅ Chapter 2: Search Algorithms (Node.js complete, Gleam in progress)
-- 🚧 Future chapters to be added
-
-**Recent Updates:**
-- Restructured to support dual-language implementations
-- Added Gleam project setup
-- Maintained TypeScript implementations in `/node`
 
 ## Contributing
 
