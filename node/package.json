@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "vitest run test/chapter-2/binary-search-v2.spec.ts"
+    "start": "vitest run test/chapter-4/bubble-sort.spec.ts"
   },
   "author": "Dirga Yasa",
   "license": "ISC",
