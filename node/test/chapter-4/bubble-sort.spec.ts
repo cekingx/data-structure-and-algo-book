@@ -8,7 +8,7 @@ describe("bubble-sort", () => {
   })
 
   it("should sort the array", () => {
-    const result = bubble_sort([3,1,2])
-    expect(result).toEqual([1,2,3])
+    const result = bubble_sort([4,3,2,1])
+    expect(result).toEqual([1,2,3,4])
   })
 })
