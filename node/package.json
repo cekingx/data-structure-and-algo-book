@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "vitest run test/chapter-5/selection-sort.spec.ts"
+    "start": "vitest run test/chapter-6/insertion-sort.spec.ts"
   },
   "author": "Dirga Yasa",
   "license": "ISC",
